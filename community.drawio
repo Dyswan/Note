@@ -1,1 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2021-01-03T14:21:45.484Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.1.8" etag="s0uQncmOG7HJa8j4Gv-E" type="github"><diagram id="XhhONMSYBQEZovoetkMq">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-04T09:09:10.088Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="txwhRuPImwm_l7FZoH6A" version="14.4.3" type="github">
+  <diagram id="XhhONMSYBQEZovoetkMq" name="Page-1">
+    <mxGraphModel dx="1182" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D64wDjCvDe5VgmZGBamj-7" value="代码运行服务" style="rounded=1;arcSize=10;dashed=1;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;shadow=0;glass=0;sketch=0;verticalAlign=top;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="250" y="100" width="440" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="D64wDjCvDe5VgmZGBamj-8" value="代码" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="D64wDjCvDe5VgmZGBamj-4" target="D64wDjCvDe5VgmZGBamj-7">
+          <mxGeometry y="15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D64wDjCvDe5VgmZGBamj-4" value="后台服务器" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.server_rack;" vertex="1" parent="1">
+          <mxGeometry x="100" y="280" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="D64wDjCvDe5VgmZGBamj-5" value="&lt;font style=&quot;font-size: 13px&quot;&gt;&amp;nbsp; &amp;nbsp;容器&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;shadow=1;glass=0;fillColor=none;align=left;horizontal=1;verticalAlign=top;arcSize=14;" vertex="1" parent="1">
+          <mxGeometry x="530" y="120" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="D64wDjCvDe5VgmZGBamj-3" value="运行程序" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.code_file;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="150" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D64wDjCvDe5VgmZGBamj-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="D64wDjCvDe5VgmZGBamj-9" target="D64wDjCvDe5VgmZGBamj-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D64wDjCvDe5VgmZGBamj-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="D64wDjCvDe5VgmZGBamj-9" target="D64wDjCvDe5VgmZGBamj-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D64wDjCvDe5VgmZGBamj-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="D64wDjCvDe5VgmZGBamj-9" target="D64wDjCvDe5VgmZGBamj-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D64wDjCvDe5VgmZGBamj-17" value="负载均衡" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="D64wDjCvDe5VgmZGBamj-16">
+          <mxGeometry x="-0.6065" y="2" relative="1" as="geometry">
+            <mxPoint x="-21" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D64wDjCvDe5VgmZGBamj-9" value="&lt;font style=&quot;font-size: 15px&quot;&gt;Nginx&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="277.5" width="76" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="D64wDjCvDe5VgmZGBamj-11" value="&lt;font style=&quot;font-size: 13px&quot;&gt;&amp;nbsp; &amp;nbsp;容器&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;shadow=1;glass=0;fillColor=none;align=left;horizontal=1;verticalAlign=top;arcSize=14;" vertex="1" parent="1">
+          <mxGeometry x="530" y="240" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="D64wDjCvDe5VgmZGBamj-12" value="运行程序" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.code_file;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="270" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D64wDjCvDe5VgmZGBamj-13" value="&lt;font style=&quot;font-size: 13px&quot;&gt;&amp;nbsp; &amp;nbsp;容器&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;shadow=1;glass=0;fillColor=none;align=left;horizontal=1;verticalAlign=top;arcSize=14;" vertex="1" parent="1">
+          <mxGeometry x="530" y="410" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="D64wDjCvDe5VgmZGBamj-14" value="运行程序" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.code_file;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="440" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D64wDjCvDe5VgmZGBamj-19" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fontSize=30;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="360" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
